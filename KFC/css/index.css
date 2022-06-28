@@ -173,13 +173,14 @@ text-transform: uppercase;
     margin-left: 15px;
 }
 /* INTRO  */
-.intro_col{
-    display: flex;
+.intro_col img{
+    width: 40%;
 }
-.intro_col1{
-    float: left;
-    width: 50%;
+.intro_col{
 
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
 }
 .footer_bg{
     background: url('../img/logo_footer_vi.png');
